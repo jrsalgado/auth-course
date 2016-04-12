@@ -1,0 +1,20 @@
+{
+  "name": "auth-course",
+  "version": "1.0.0",
+  "description": "auth course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jayro salgado",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.0",
+    "client-sessions": "latest",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "joi": "^8.0.5",
+    "mongoose": "^4.4.11"
+  }
+}

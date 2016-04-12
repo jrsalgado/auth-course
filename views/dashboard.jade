@@ -1,0 +1,13 @@
+extends base
+
+block vars
+  - var title = "Dashboard"
+
+block body
+  h1 Dashboard
+  p Welcome to your dashboard
+
+  h2 User information
+  p First Name: #{user.firstName}
+  p Last Name: #{user.lastName}
+  p Email: #{user.email}

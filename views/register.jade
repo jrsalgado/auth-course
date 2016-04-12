@@ -1,0 +1,20 @@
+extends base
+block vars
+  -var title = 'Register'
+block body
+  h1 Crate an account
+  p #{error}
+  form(method="post")
+    span First Name
+    input(type="text", name="firstName", required=true)
+    br
+    span Last Name
+    input(type="text", name="lastName", required=true)
+    br
+    span Email
+    input(type="email", name="email", required=true)
+    br
+    span pasword
+    input(type="password", name="password", required=true)
+    br
+    input(type="submit", value="register me")
